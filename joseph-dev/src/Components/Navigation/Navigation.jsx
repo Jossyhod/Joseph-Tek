@@ -11,7 +11,7 @@ const Navigation = ({Item1,Item2,Item3,Item4}) => {
   return (
     <div className={styles.nav_bar}>
       <div className={styles.nav_logo}>
-         <img src="https://res.cloudinary.com/dfeyofjln/image/upload/v1692172726/2OC_logo-removebg-preview_q75nqy.png"></img>
+         <img src="https://res.cloudinary.com/dfeyofjln/image/upload/v1692172726/2OC_logo-removebg-preview_q75nqy.png" alt=" "></img>
       </div>
       <ul className={styles.nav_ul}>
         <li> <Link to={"/"}>Home</Link></li>
